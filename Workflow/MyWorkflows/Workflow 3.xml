@@ -3,7 +3,7 @@
   <display-name><![CDATA[Workflow 3]]></display-name>
   <position y="9.545454545454543" x="105.0"/>
   <workflow-item name="item0" type="end" end-mode="0">
-    <position y="190.86363636363635" x="344.5"/>
+    <position y="236.3181818181818" x="404.5"/>
   </workflow-item>
   <workflow-item name="item1" out-name="item2" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
@@ -12,12 +12,19 @@
     <out-binding/>
     <position y="64.5" x="164.5"/>
   </workflow-item>
-  <workflow-item name="item2" out-name="item0" type="task">
+  <workflow-item name="item2" out-name="item3" type="task">
     <display-name><![CDATA[Scriptable task]]></display-name>
     <script encoded="false"><![CDATA[//comment 5]]></script>
     <in-binding/>
     <out-binding/>
     <position y="128.13636363636363" x="244.5"/>
+  </workflow-item>
+  <workflow-item name="item3" out-name="item0" type="task">
+    <display-name><![CDATA[Scriptable task]]></display-name>
+    <script encoded="false"><![CDATA[//test]]></script>
+    <in-binding/>
+    <out-binding/>
+    <position y="182.68181818181816" x="304.5"/>
   </workflow-item>
   <presentation/>
 </workflow>
